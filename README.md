@@ -49,7 +49,9 @@ Invoice_Automation_System/
 │   └── generate_data_v2.py
 │
 ├── services/
+│   ├── services/
 │   ├── matching.py
+│   ├── validation.py
 │   ├── exception_routing.py
 │   ├── approval_workflow.py
 │   └── payment_processing.py
@@ -62,6 +64,8 @@ Invoice_Automation_System/
 │   └── ground_truth.csv
 │
 ├── docs/
+│   ├── architecture.md
+│   └── data_dictionary.md
 │
 ├── app.py
 ├── requirements.txt

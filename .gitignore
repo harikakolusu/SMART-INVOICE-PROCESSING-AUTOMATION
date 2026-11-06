@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Backup and old database files
+app.db
+data/invoice_automation.db
+data/invoice_automation_backup.db
+data/invoice_automation_v2_backup.db
+output/ground_truth_backup.csv
